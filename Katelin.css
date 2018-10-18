@@ -1,66 +1,66 @@
 html, body {
-    margin: 0;
+    margin: 0px;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family:sans-serif;
+    color:black
 }
 
 body {
-    background-color: whitesmoke;
+    background-color:whitesmoke
 }
 
 .top-bar {
     max-width: 1000px;
-    position: relative;
+    position:relative;
     margin-left: auto;
     margin-right: auto;
 }
 
 .logo {
-   font-size: 30px;
-   position: absolute;
-   padding: 0px 0px 0px 20px;
+   font-size: 60px;
+   position:inherit;
+   padding: 20px 10px 10px 20px;
    z-index: 3;
-   color: #131359;
-   font-weight: bold;
+   color:darkslategray
+   font-weight:bold;
 }
 
 .top-menu {
-   background-color: #131359;
-   position: absolute;
-   top: 85px;
+   background-color:darkred;
+   position:absolute;
+   top: 50px;
    z-index: 2;
    width: 100%;
 }
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
-    float: right;
-    margin-right: 20px;
+    font-size: 40px; 
+    float:right;
+    margin-right:30px;
 }
 
 .top-menu li {
-    display: inline-block;
+    display:inherit;
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
+    color:black;
     text-decoration: none;
-    padding: 20px 20px 20.5px 20px;
+    padding: 0px 0px 0px 010px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color:whitesmoke;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: whitesmoke;
 }
 
 .page-content {
     position: relative;
-    top: 145px;
+    top: 11px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +69,7 @@ body {
 }
 
 .main-section {
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 .main-section h1, .main-section h2 {
@@ -77,27 +77,28 @@ body {
 }
 
 .main-section figure, .main-section img {
-    display: block;
+    display:flow-root;
     margin: auto;
     width: 800px;
 }
 
 .footer {
     position: relative;
-    top: 140px;
+    top: 14px;
     z-index: 3;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:darkred
 }
 
 .footer-content {
-    padding: 5px 5px 5px 20px;
+    padding: 30px 5px 30px 10px;
     color: white;
 }
 
 .footer-content a:link {
-    color: white;
-    text-decoration: none;
+    color:darkgray;
+    text-decoration:none
+    
 }
